@@ -1,0 +1,21 @@
+body	{
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+table	{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+td	{
+	width: 50%;
+	border: 1px solid black;
+}
+tr :first-child	{
+	background-color: rgb(0, 238, 255);
+}
+tr :last-child	{
+	background-color: darkorange;
+}
