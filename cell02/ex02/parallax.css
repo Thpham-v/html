@@ -1,0 +1,35 @@
+body, html {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+}
+
+.bg1 {
+    background-image: url("https://browsecat.net/sites/default/files/4k-forest-road-hd-photography-wallpapers-41085-855-3913471.png");
+}
+
+.block {
+    color: black;
+}
+
+.bg2 {
+    background-image: url("https://images.unsplash.com/photo-1499343245400-cddc78a01317?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section { 
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
